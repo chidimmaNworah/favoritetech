@@ -21,7 +21,7 @@ app.use(methodOverride("_method"));
 
 //cors origin URL - Allow inbound traffic from origin
 corsOptions = {
-  origin: "https://favouritetech.herokuapp.com/",
+  origin: "https://favoritetech.herokuapp.com/",
   optionSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
